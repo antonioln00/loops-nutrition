@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .dropdown-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar a:not(.dropdown-icon) {
+      display: none;
+    }
+  
+    .dropdown-icon {
+      display: block;
+    }
+  
+    .dropdown-content {
+        display: none;
+      }
+      
+      .show-dropdown {
+        display: flex;
+      }
+  }
