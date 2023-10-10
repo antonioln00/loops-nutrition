@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  max-width: 50px;
+}
+
+.promotiotion-bar {
+  display: flex;
+  justify-content: space-between;
+}
