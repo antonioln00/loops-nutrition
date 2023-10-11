@@ -12,7 +12,7 @@ function Nav() {
     const dropdownClasses = isOpen ? 'dropdown-content show-dropdown' : 'dropdown-content';
 
     return (
-        <div> {/* Envolve ambos os conjuntos de links em um div */}
+        <div>
             <nav className="navbar">
                 <Link to="/central-loops">Central Loops</Link>
                 <Link to="/produtos-loops">Produtos Loops</Link>

@@ -1,0 +1,15 @@
+.promotiotion-bar{
+    background-color: brown;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.logo-instagram {
+    max-width: 40px;
+}
+
+
+

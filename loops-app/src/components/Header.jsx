@@ -4,6 +4,7 @@ import carrinho from '../imgs/carrinho-de-compras.svg'
 import perfil from '../imgs/perfil.svg'
 import Nav from "./Nav";
 import { Link } from "react-router-dom";
+import '../style/Header.css'
 
 class Header extends React.Component {
     render() {
